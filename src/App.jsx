@@ -1,25 +1,63 @@
 function Calculator() {
-  return <div className="bg-white">
+  return <div className="bg-white p-5 rounded-2xl">
     <div className="grid grid-cols-4 gap-5">
-      <button>C</button>
-      <button>%</button>
-      <button>ff</button>
-      <button>/</button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>x</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>-</button>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>+</button>
-      <button>0</button>
-      <button>.</button>
-      <button>+</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+        C</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      %</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      ff</button>
+      <button className="bg-orange-400 text-white bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      /</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      1</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      2</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      3</button>
+      <button className="bg-orange-400 text-white bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      x</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      4</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      5</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      6</button>
+      <button className="bg-orange-400 text-white bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      -</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      7</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      8</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      9</button>
+      <button className="bg-orange-400 text-white bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      +</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      0</button>
+      <button className="bg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      .</button>
+      <button className="bg-green-400 text-whitebg-gray-100 py-3 aspect-square rounded-2xl shadow-sm text-gray-600 
+      hover:brightness-95 hover:cursor-pointer active:brightness-90 transition-all duration-100">
+      =</button>
       </div>
   </div>;
 }
